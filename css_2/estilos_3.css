@@ -1,0 +1,165 @@
+
+body{
+	font-size:12px;
+	font-family: 'Oswald', sans-serif;
+	font-family: 'Trirong', serif;
+	margin: 0;
+ }
+h1{
+	margin: 0;
+	padding: 0;
+}
+
+h2{
+	margin: 0;
+	padding: 0;
+	letter-spacing: 0.0200em;
+}
+
+h3{
+	margin: 0;
+	padding: 0;
+}
+
+a{
+	color: white;
+	text-decoration: none;
+	margin:0 auto;
+}
+
+p{
+ 	font-family: lato;
+ 	text-align: center;
+ 	margin:10px;
+ 	font-size: 60px;
+ 	letter-spacing: 00.1em;
+ 	font-weight: 200;
+}
+
+
+
+/*------------------------------------------------tamaño 480-----------------------------------*/
+@media(min-width: 480px)
+{
+	h2{
+		display: inline-block;
+		font-family: 'Playfair Display', sans-serif;
+		font-weight: 400;
+		font-size: 6.5em;
+		color: white;
+		line-height:110%;
+		width: 100%;
+		text-align: center;
+	
+	}
+	
+	
+	h3{
+		color: white;
+		font-family: 'lato', sans-serif;
+		font-weight: 300;
+		letter-spacing: 0.0800em;
+		 word-spacing: 0.15em;
+		 margin: 0 auto;
+		 text-align: left;
+		 font-size: 2em;
+		 padding-top: 50px;
+		 padding-bottom: 10px;
+	}
+	
+	h4{
+		color: #e80f5d;
+		font-family: 'lato', sans-serif;
+		font-weight: 400;
+		letter-spacing: 0.0800em;
+		 word-spacing: 0.1em;
+		 margin: 0 auto;
+		 text-align: left;
+		 font-size: 2em;
+		 padding-top: 10px;
+	}
+	
+#homeSection{
+	height: 100%;
+	background-color: #1c0242;
+	background: radial-gradient( #2d1f6e 0.08%, #1e1146 30%, #100438 50%, #070010 100%);
+	z-index: 1;
+}
+
+#fondos{
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	position: relative;
+}
+
+
+#fondo1{
+	background-image:url(../imagenes/fondo_1.svg);
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 650px;
+	float: left;
+	margin-top: 300px;
+}
+
+#fondo2{
+	background-image:url(../imagenes/fondo_2.svg);
+	background-repeat: no-repeat;
+	float: right;
+	width: 100%;
+	height: 700px;
+}
+
+
+#contenedor1{
+	position: relative;
+	padding-top:1%;
+	padding-bottom: 7%;
+	width: 100%;
+	height: 100%;
+	max-width: 80%;
+	margin: 0 auto;
+}
+
+#copy_principal{
+	width: 100%;
+
+	float: left;
+	padding-top: 10%;
+}
+
+#cta1 {
+	width: 150px;
+	height: 45px;
+	margin-top: 40px;
+	float: left;
+	border-radius: 40px;
+  	background-image: linear-gradient(to right, #e80f5d 0%, #DA22FF 100%);
+	color: white;
+ }
+
+#cta1 p{
+ 	font-family: lato;
+ 	text-align: center;
+ 	margin:10px;
+ 	font-size: 18px;
+ 	letter-spacing: 000.1em;
+ 	font-weight: 400;
+ 	padding-top: 2px;
+}
+
+#seccionimagen{
+	width: 100%;
+	margin: 5%;
+	padding-top: 10px;
+	display: inline;
+}
+
+#imagen_principal{
+	background-repeat: no-repeat;
+	width: 100%;
+	padding-top: 0%;
+}
+
+}
